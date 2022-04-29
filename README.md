@@ -11,6 +11,7 @@ Test prefix: `!`
 1. `!hangman` - Starts the game
 
 ![Game Panel](docs/images/game_panel.png)
+
 2. To guess a letter, just type a letter and send into the channel which is you started the game in.
 3. To take a hint, type `hint` and send.
 4. By the default you have 45 seconds to take action. After that, game stops.
