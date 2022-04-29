@@ -1,0 +1,18 @@
+{
+  "point_config" : {
+    "HP": 6,
+    "letter_point": 5,
+    "not_exist_letter": -3,
+    "known_letter_penalty": -20,
+    "out_of_charset_guess": -10,
+    "one_shot_multiplier": 5,
+    "one_shot_penalty": -20,
+    "hint_penalty": -5
+  },
+  "censor_char": "*",
+  "guess_time_out": 45,
+  "charset": [
+    "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+    "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+  ]
+}
