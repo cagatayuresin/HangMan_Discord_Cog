@@ -2,6 +2,9 @@
 ![Python Versions](https://img.shields.io/pypi/pyversions/discord.py.svg?style=flat&logo=python&logoColor=white)
 
 <a href="https://www.buymeacoffee.com/cagatayuresin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+[https://cagatayuresin.com/discord-hangman/](https://cagatayuresin.com/discord-hangman/)
+
 # HangMan - Discord Cog
 
 A "cog" to play HangMan for Discord bots which is written in [discord.py](https://github.com/Rapptz/discord.py)
