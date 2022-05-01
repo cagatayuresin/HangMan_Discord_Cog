@@ -87,19 +87,6 @@ game_panel = "```" \
 
 
 class Question:
-    name: str
-    answer: str
-    question: str
-    length: int
-    category: str
-    hints: list
-    hint_count: int
-    appears: list
-    unknown_letters: list
-    point_cfg: dict
-    point: int
-    hp: int
-
     def __init__(self, question: dict):
         self.name = question['name']
         self.answer = self.name.lower()
@@ -217,9 +204,9 @@ class HangMan(commands.Cog):
             )
             return ctx.send(panel)
 
-        await ctx.send(
-            "`'hint' to take hint\n"
-            "'cancel' to finish`")
+        rules = await ctx.send(
+            "```'hint' to take hint\n"
+            "'cancel' to finish```")
 
         while True:
             the_panel = await bot_game_panel()
